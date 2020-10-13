@@ -20,6 +20,7 @@ function setThemeGlobals($environment = null) {
             $pre_crumbs = array('Contact us' => '/');
             break;
         case 'external':
+        case 'aws_public':
             $pre_crumbs = array(
                 'Contact us' => '/contact-us/'
             );
